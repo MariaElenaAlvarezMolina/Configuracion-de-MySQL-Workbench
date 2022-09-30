@@ -1,0 +1,6 @@
+Comandos para probar conexión en MySQL Workbench
+
+SELECT * FROM esquema_ejemplo.usuarios;
+INSERT INTO usuarios (nombre, edad, direccion_id) VALUES ('Juana', '31', '6');
+DELETE FROM usuarios WHERE id = 9;
+UPDATE usuarios SET nombre = 'Elenita', edad = '20' WHERE id = 3;
